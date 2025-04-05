@@ -4,6 +4,7 @@
   "homepage": "https://iampritampyare.github.io/PortFolio",
   "private": true,
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "pritam_portfolio": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

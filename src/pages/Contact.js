@@ -39,8 +39,10 @@ const contactItems = [
 ];
 
 export default function Contact() {
+  
   return (
-    <div className="p-6 text-center">
+    <div className="text-center bg-white dark:bg-slate-900 text-black dark:text-white">
+
       <h1 className="text-3xl font-semibold mb-8 text-indigo-700">Connect with Me</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center mb-10">
         {contactItems.map((item, idx) => (

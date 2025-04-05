@@ -1,8 +1,10 @@
 import React from "react";
 
 export default function Home() {
+ 
   return (
-    <div className="p-6">
+    <div className="bg-white dark:bg-slate-900 text-black dark:text-white">
+
       <h1 className="text-3xl font-semibold mb-4">Welcome to My Portfolio</h1>
       <section className="mb-6">
         <h2 className="text-xl font-bold">Projects</h2>
