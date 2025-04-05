@@ -66,7 +66,7 @@ export default function Contact() {
       <div className="mt-10">
         <h2 className="text-xl font-semibold mb-2">More Links</h2>
         <ul className="text-sm text-gray-600">
-          All Other Projects are comming soon
+          All Other Projects are comming soon on home page
           {/* <li><strong>Link 1:</strong> Coming Soon</li>
           <li><strong>Link 2:</strong> Coming Soon</li>
           <li><strong>Link 3:</strong> Coming Soon</li> */}

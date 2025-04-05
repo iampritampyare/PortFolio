@@ -24,7 +24,7 @@ function App() {
   const renderPage = () => {
     if (page === "pritam") return <Pritam />;
     if (page === "contact") return <Contact />;
-    return <Home />;
+    return <Home setPage={setPage} />;
   };
 
   return (
