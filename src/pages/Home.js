@@ -17,6 +17,7 @@ export default function Home({ setPage }) {
         <a href="#techstack" className="hover:underline hover:text-indigo-400 transition-all duration-200">💻Tech Stack</a>
         <a href="#projects" className="hover:underline hover:text-indigo-400 transition-all duration-200">📂Projects</a>
         <a href="#experience" className="hover:underline hover:text-indigo-400 transition-all duration-200">💼Experience</a>
+        <a href="#education" className="hover:underline hover:text-indigo-400 transition-all duration-200">🎓 Education</a>
       </div>
 
       {/* Tech Stack */}
@@ -76,7 +77,7 @@ export default function Home({ setPage }) {
               </h3>
               <a href="https://github.com/iampritampyare" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 hover:underline animate-pulse text-sm">[LINK]</a>
             </div>
-            <p><strong>Tech:</strong> Python, Pandas, Scikit-learn</p>
+            <p><strong>Tech:</strong> Python, Pandas, Scikit-learn, Streamlit</p>
             <p><strong>Aim:</strong> Build a smart movie recommendation system using collaborative filtering.</p>
             <ul className="list-disc pl-6 space-y-1 text-sm leading-relaxed">
               <li>Implemented collaborative filtering logic with Pandas + cosine similarity.</li>
@@ -125,14 +126,49 @@ export default function Home({ setPage }) {
         <ul className="list-disc pl-6 space-y-1 text-sm leading-relaxed">
           <li>Developed secure and scalable REST APIs using <strong>Flask</strong> and Python-based backend architecture.</li>
           <li>Managed question data, evaluation results, and scoring logs with <strong>SQL databases</strong> (SQL).</li>
-          <li>Ensured backend reliability and performance for real-time answer checking at scale.</li>
+          <li>Wrote optimized <strong>SQL queries</strong> to improve data retrieval speed and ensure high-performance backend operations at scale.</li>
           <li>Built an answer evaluation system for long-type answers using <strong>cosine similarity</strong> and custom <strong>AI/ML logic</strong>.</li>
+          <li>Configured and deployed the backend server on an <strong>AlmaLinux</strong> environment using <strong>NGINX</strong> as a reverse proxy for production deployment.</li>
+          {/* <li>Handled process management, secure routing, and static file delivery through NGINX for optimal performance and scalability.</li> */}
+
         </ul>
       </section>
 
+
+      {/* Education */}
+      <section id="education" className="mt-12">
+        <h2 className="text-2xl font-semibold mb-4 flex justify-center items-center gap-2">
+          🎓 Education
+        </h2>
+        <ul className="space-y-4 text-sm leading-relaxed">
+          <li>
+            <p className="font-bold">Master of Computer Applications (MCA)</p>
+            <p>Veer Surendra Sai University of Technology, Burla — <span className="italic">2022 – 2024</span></p>
+            <p>CGPA: <strong>8.88</strong></p>
+          </li>
+          <li>
+            <p className="font-bold">Bachelor of Science (Physics Honours)</p>
+            <p>Banki (Auto) College, Banki — <span className="italic">2019 – 2022</span></p>
+            <p>CGPA: <strong>8.27</strong></p>
+          </li>
+          <li>
+            <p className="font-bold">Intermediate / +2 Science</p>
+            <p>Newstar H.S. School, Pubusahi — <span className="italic">2017 – 2019</span></p>
+            <p>Percentage: <strong>69.5%</strong></p>
+          </li>
+          <li>
+            <p className="font-bold">Matriculation (10th)</p>
+            <p>Bebarta Purnananda Bidyapitha, Naraganga — <span className="italic">2016 – 2017</span></p>
+            <p>Percentage: <strong>83.33%</strong></p>
+          </li>
+        </ul>
+      </section>
+
+
       <p className="mt-6 text-sm text-gray-500 dark:text-gray-400 italic leading-relaxed list-none space-y-1 text-sm italic leading-relaxed">
-        <li>Aiming to become an AI/ML Engineer and Data Scientist, I explore real-world ideas through hands-on projects.</li>
-        <li>I continuously use tools like ChatGPT to brainstorm, debug, and turn concepts into reality — because learning never stops.</li>
+      <li>90% of this portfolio was written by ChatGPT — I just prompted wisely, applied logic, and made sure the data didn’t get lost on the way!</li>
+      <li>Aiming to become an AI/ML Engineer and Data Scientist, I explore real-world ideas through hands-on projects.</li>
+        {/* <li>I continuously use tools like ChatGPT to brainstorm, debug, and turn concepts into reality — because learning never stops.</li> */}
         <li>With a strong foundation in Mathematics and Physics, I enjoy exploring how their principles can be applied to real-world challenges. I combine this passion with my software engineering skills to build intelligent and practical solutions.</li>
       </p>
 
