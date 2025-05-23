@@ -13,7 +13,7 @@ const contactItems = [
   {
     icon: <FaFilePdf size={32} />,
     name: "Resume",
-    link: "https://drive.google.com/file/d/1_RUgW17HgFLksyj4N6_cLNf1nHGrBN15/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1ipja5134NL5n_LxeEYULtC8vrsy23KcU/view?usp=sharing",
   },
   {
     icon: <SiLeetcode size={32} />,
@@ -72,6 +72,22 @@ export default function Contact() {
           <li><strong>Link 3:</strong> Coming Soon</li> */}
         </ul>
       </div>
+            <div className="mt-10 px-4 sm:px-10">
+        <blockquote className="text-center italic text-lg text-indigo-400 border-l-4 border-indigo-500 pl-4">
+          <p>
+            <strong>Physics and Math isn't just a subject — it's love ❤️</strong><br />
+            Ask me any formula — maybe I won’t be able to solve it, maybe I can’t even explain it fully…<br />
+            But teach me a formula, and I promise —<br />
+            I’ll tell you exactly where it belongs in real life.
+          </p>
+          <p className="mt-4">
+            Because theory fades, but application stays.<br />
+            <span className="font-semibold">That’s real understanding.</span>
+          </p>
+          <footer className="mt-2 text-right text-sm text-indigo-300">— Pritam</footer>
+        </blockquote>
+      </div>
+
     </div>
   );
 }
